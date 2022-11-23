@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+}
+.netflix__margin {
+  max-width: 79rem;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+header button {
+  background-color: #e50914;
+  padding: 7px 17px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+}
+.start__screen {
+  background-image: url(./images/wallpaper.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    url(./images/wallpaper.jpg);
+}
+.homescreen__details {
+  padding-top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.start__screen h1, .faq__width h1 {
+  font-size: 3rem;
+}
+.start__screen h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 2rem 0;
+}
+.start__screen p {
+  font-size: 1.2rem;
+}
+.get__started {
+  margin-top: 1rem;
+  display: flex;
+  width: 54%;
+}
+.get__started input, .get__started__end input {
+  padding: 1rem;
+  height: 3.3rem;
+  border: #fff;
+  width: 70%;
+}
+.get__started button, .get__started__end button {
+  background-color: #e50914;
+  border: 2px solid #e50914;
+  color: #fff;
+  height: 3.3rem;
+  width: 30%;
+  font-size: 1.5rem;
+}
+.section__width {
+  max-width: 69rem;
+  margin: 0 auto;
+}
+.section__1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section__1 h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.section__1 p {
+  font-size: 1.6rem;
+}
+.relative {
+  position: relative;
+}
+.section__video__1 {
+  position: absolute;
+  top: 20%;
+  left: 12.6%;
+}
+.border__bottom {
+    border-bottom: 8px solid #222;
+  padding: 2rem 0;
+}
+.animation__card{
+    align-items: center;
+    background: #000;
+    border: 2px solid #ffffff40;
+    border-radius: 0.75em;
+    bottom: 8%;
+    box-shadow: 0 0 2em 0 #000;
+    display: flex;
+    left: 50%;
+    margin: 0 auto;
+    min-width: 22em;
+    justify-content: space-between;
+    padding: 0.25em 0.65em;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 60%;
+}
+.animation__holder{
+    width: 270px;
+}
+.animation__image img{
+    width: 45px;
+}
+.animation__text div:first-child{
+    font-size: 16px;
+    font-weight: 500;
+}
+.animation__text div:last-child{
+    font-size: 15px;
+    color: #0071eb;
+}
+.animation__arrow {
+    background: url(./images/download-icon.gif) 50% no-repeat;
+    background-size: 100%;
+    content: "";
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    width: 3em;
+}
+.width-50{
+    width: 585px;
+}
+.last__img{
+    width: 477px;
+}
+.faq__width{
+    margin: 0 auto;
+    max-width: 50rem;
+}
+.faq__width h1{
+    
+    margin-bottom: 2rem;
+}
+details{
+    border: 0;
+    font-weight: 400;
+    margin-bottom: 1px;
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    width: 100%;
+    background: #303030;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+::marker{ display:none; } summary{ list-style: none; display: flex; justify-content: space-between; }
+details h4{
+    font-size: 2.5rem;
+    line-height: 2;
+}
+details p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    line-height: 2;
+}
+.margin__top{
+margin-top: 2rem;
+margin-bottom: 5rem!important;
+}
+.margin__top p{
+text-align: center;    } 
+.get__started__end{
+    margin-top: 1rem;
+  display: flex;
+  width: 100%;
+}
+.nigeria{
+    margin-top: 3rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+ul{
+    list-style-type: none;
+}
+ul li{
+    color: #737373;
+    font-size: 14px;
+    padding-bottom: 1rem;
+}
+footer{
+    padding: 5rem 0!important;
+}
+footer a{
+    color: #737373;
+    text-decoration: none;
+}
